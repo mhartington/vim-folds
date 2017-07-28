@@ -28,7 +28,7 @@ function! HTMLFolds() "{{{
   let line = getline(v:lnum)
 
   " Ignore tags that open and close in the same line
-  if line =~# '<\([^ >]\+\).*<\/\1>'
+  if line =~# '<\([^ >]\+\)[ >].*<\/\1>'
     return '='
   endif
 
