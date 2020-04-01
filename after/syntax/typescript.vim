@@ -1,1 +1,1 @@
-syn region typescriptArray start="\[" end="\]" fold
+" syn region typescriptArray start="\[" end="\]" fold

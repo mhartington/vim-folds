@@ -17,7 +17,9 @@ let s:exclude_tags_list = [
       \ 'param',
       \ 'source',
       \ 'track',
-      \ 'wbr'
+      \ 'wbr',
+      \ 'line',
+      \ 'path',
       \ ]
 let s:exclude_tags = join(s:exclude_tags_list, '\|')
 "}}}
